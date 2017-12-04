@@ -32,7 +32,7 @@ $cfg['Servers'][$i]['auth_type'] = 'cookie';
 $cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['ssl'] = true;
+$cfg['Servers'][$i]['ssl'] = false;
 $cfg['Servers'][$i]['ssl_verify'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
