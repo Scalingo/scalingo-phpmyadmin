@@ -14,7 +14,7 @@
  * This is needed for cookie based authentication to encrypt password in
  * cookie
  */
-$cfg['blowfish_secret'] = '3e66cb0ae378a6bd899f55bde5d407c5';
+$cfg['blowfish_secret'] = $_ENV["BLOWFISH_SECRET"];
 $cfg['AllowArbitraryServer'] = true;
 
 /**
