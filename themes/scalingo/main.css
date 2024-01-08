@@ -6,3 +6,8 @@
     margin: 2em auto;
     padding: 1em;
 }
+
+.warning a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
