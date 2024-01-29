@@ -46,7 +46,12 @@
 
 <div class="warning">
     <p>This phpMyAdmin instance provided by Scalingo will be decommissioned and put offline on the 1st of April 2024 (2024-04-01).</p>
-    <p>If you are using it, please have a look at <a class="disableAjax" href="https://doc.scalingo.com/platform/databases/access">other access methods for your MySQL database</a>.</p>
+    <p>To learn more about the reasons that led us to make this decision, please refer to our <a class="disableAjax" href="https://doc.scalingo.com/security/bulletins/ssb-2024-001">Security Bulletin</a>.</p>
+    <p>If you are still using phpMyAdmin, please transition to using Scalingo's secure methods for database access:</p>
+    <ul>
+        <li><a class="disableAjax" href="https://doc.scalingo.com/platform/databases/access">Accessing the Database Console using Scalingo CLI</a></li>
+        <li><a class="disableAjax" href="https://doc.scalingo.com/platform/databases/access#encrypted-tunnel">Using an Encrypted Connection for local tools</a></li>
+    </ul>
 </div>
 
 <form method="post" id="login_form" action="index.php?route=/" name="login_form" class="
